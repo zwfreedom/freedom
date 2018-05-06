@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>boot-grid</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="jquery/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">1</div>
+    		<div class="col-md-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">2</div>
+    		<div class="col-md-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">3</div>
+    		<div class="col-md-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">4</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-6" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">1</div>
+    		<div class="col-md-6" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">2</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-4" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">1</div>
+    		<div class="col-md-8" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">2</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-4 col-md-push-8" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">1</div>
+    		<div class="col-md-8 col-md-pull-4" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">2</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-3 col-md-offset-3" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">1</div>
+    		<div class="col-md-3 col-md-offset-9" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">2</div>
+    	</div>
+    	<div class="row">
+    		<div class="col-md-4 col-md-push-8" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">1</div>
+    		<div class="col-md-8 col-md-pull-4" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">2</div>
+    	</div>
+
+
+    	<!--块中块-->
+    	<div class="row">
+    		<div class="col-md-4" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-md-1 offer">a</div>
+    					<div class="col-md-1 offer">b</div>
+    					<div class="col-md-1 offer">c</div>
+    					<div class="col-md-1 offer">d</div>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="col-md-4" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">2</div>
+    		<div class="col-md-4" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+    			<div class="container">
+    				<div class="row">
+    					<div class="col-md-1 offer">a</div>
+    					<div class="col-md-2 offer" style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">c</div>
+    					<div class="col-md-1 offer">d</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+
+    <!--按钮-->
+    <div style="text-align: center;margin: 20px;">
+    <button type="button" class="btn btn-default">按钮</button>
+    <button type="button" class="btn btn-primary">按钮</button>
+    <button type="button" class="btn btn-success">按钮</button>
+    <button type="button" class="btn btn-info">按钮</button>
+    <button type="button" class="btn btn-warning">按钮</button>
+    <button type="button" class="btn btn-danger">按钮</button>
+    <button type="button" class="btn btn-link">按钮</button>
+    </div>
+
+
+    <div style="text-align: center;margin: 20px;">
+    <p>
+    	<button type="button" class="btn btn-default btn-lg">按钮</button>
+    	<button type="button" class="btn btn-primary btn-lg">按钮</button>
+    </p>
+    <p>
+    	<button type="button" class="btn btn-default btn-sm">按钮</button>
+    	<button type="button" class="btn btn-primary btn-sm">按钮</button>
+    </p>
+    <p>
+    	<button type="button" class="btn btn-default btn-xs">按钮</button>
+    	<button type="button" class="btn btn-primary btn-xs">按钮</button>
+    </p>
+    </div>
+
+
+    <div style="text-align: center;margin: 20px;">
+    <p>
+    	<button type="button" class="btn btn-default btn-lg ">按钮</button>
+    	<button type="button" class="btn btn-primary btn-lg ">按钮</button>
+    </p>
+    <p>
+    	<button type="button" class="btn btn-default btn-lg active">按钮</button>
+    	<button type="button" class="btn btn-primary btn-lg active">按钮</button>
+    </p>
+    </div>
+
+    <div style="text-align: center;margin: 20px;">
+    <p>
+    	<button type="button" class="btn btn-default btn-lg ">按钮</button>
+    	<button type="button" class="btn btn-primary btn-lg ">按钮</button>
+    </p>
+    <p>
+    	<button type="button" class="btn btn-default btn-lg disabled">按钮</button>
+    	<button type="button" class="btn btn-primary btn-lg disabled">按钮</button>
+    </p>
+    </div>
+
+</body>
+</html>
