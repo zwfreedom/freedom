@@ -11,7 +11,7 @@
 </head>
 <body>
 	<!--导航-->
-	<nav class="navbar navbar-default" role="navigation">
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
 	    <div class="navbar-header">
 	    	<button type="button" class="navbar-toggle collapsed" date-toggle="collapse" data-target="#example-navbar-collapse" aria-expanded="false" aria-controls="navbar">
 	    		<span class="sr-only">Toggle navigation</span>
@@ -24,9 +24,9 @@
 	    </div> 
         <div class="collapse navbar-collapse" id="example-navbar-collapse">
 		<ul class="nav navbar-nav">	
-			<li class="active"><a href="">首页</a></li>
-			<li><a href="">关于</a></li>	
-			<li><a href="">登录</a></li>
+			<li class="active"><a href="home.html">首页</a></li>
+			<li><a href="home_case.html">关于</a></li>	
+			<li><a href="home_about.html">登录</a></li>
 		</ul>
 	    </div>
 	</nav>	
@@ -34,13 +34,13 @@
 	<div id="myCarousel" class="carousel slide">
    <!-- 轮播（Carousel）指标 -->
    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
    </ol>   
    <!-- 轮播（Carousel）项目 -->
    <div class="carousel-inner">
-      <div class="item active">s
+      <div class="item active">
          <img src="img/01.jpg" alt="First slide">
       </div>
       <div class="item">
@@ -51,26 +51,74 @@
       </div>
    </div>
    <!-- 轮播（Carousel）导航 -->
-   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+   <a class="carousel-control left" href="#myCarousel" 
+      data-slide="prev">
        <span class="glyphicon glyphicon-chevron-left"></span>
        <span class="sr-only">Previous</span>
-   </a>
-   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      </a>
+   <a class="carousel-control right" href="#myCarousel" 
+      data-slide="next">
        <span class="glyphicon glyphicon-chevron-right"></span>
        <span class="sr-only">Next</span>
-   </a>
-</div>
+      </a>
+   </div>
 
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-9">
+    			<!--正文-->
+    			<div class="page-header">
+                <h1>四光年科技<small>有价值的、有趣的信息服务</small></h1>
+                </div>
+                <blockquote>
+                	<p>
+                		交给你全栈开发的一招一式，我们不会装作什么都懂，也不会教你花架子，只是能保证你学完后，拥有自己的一套内功心法，能举一反三，轻松写代码
+                	</p>
+                </blockquote>
+                <p>
+                    <strong>程序员修炼之道</strong>
+                </p>
+                <p>
+                    <mark>“衣带渐宽终不悔，为伊消得人憔悴”</mark>，编程大约有三个境界，新手、高手和<del>高不成低不就的中手</del>，适合新手的教程很多，指导中手的教程却很少；没有几十万行代码的锤炼或者长期在一个高手团队里打磨切磋，中手需要在这个层次“众里寻他千百度”，才能“蓦然回首”。 <ins>我们偏好实践，以正确的原则指导正确的行动</ins>
+                </p>
 
-	<!--案例-->
+                <div class="text-center">
+                	<img src="img/15.jpg">
+                </div>
 
-	<!--产品功能截图-->
+                <p class="content">听说 PHP 很简单，常用的函数有<code>echo</code>、<code>is_array</code>、<code>mysql_connect</code>等等
+                </p>
+                <p class="content">
+                    例如
+                     <pre>
+                     // example
+                     if($a == 1){
+                         echo 'variable a = 1';
+                     }else{
+                         echo 'variable a = 2';
+                     }
+                     </pre>
+                </p>
 
-	<!--底部-->
+                <p class="text-center">
+                	<button class="btn btn-primary">顶</button>
+                	<button class="btn btn-danger">踩</button>
+                </p>
+    		</div>
+    		<div class="col-md-3">
+    			<!--相关信息-->
+                <p><img src="img/14.jpg"></p>
+                <h3>相关内容</h3>
+                <ul class="list-unstyled">
+                    <li><a href="">深圳市四光年信息技术有限公司</a></li>
+                    <li><a href="">深圳市腾讯计算机系统</a></li>
+                    <li><a href="">北京市百度互联网计算有限公司</a></li>
+                    <li><a href="">杭州市阿里巴巴集团</a></li>
+                </ul>
 
-<script type="text/javascript">
-	$('.carousel').carousel();
-</script>
+    		</div>
+    	</div>
+    </div>
 </body>
 </html>
 </html>

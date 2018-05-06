@@ -18,3 +18,9 @@ body {
 	padding-bottom: 30px;
 	padding-top: 20px;
 }
+.content {
+	padding-top: 20px;
+}
+body > div.container > div > div.col-md-3 {
+    margin-top: 40px;
+}
