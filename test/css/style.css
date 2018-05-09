@@ -28,4 +28,12 @@ body > div > div.container.main > div:nth-child(1) > div {
 .content {
 	width: 100%；
 	margin: 20px auto;
+}
+a {
+	color: #ccc;
+	text-decoration: none;
+}
+a:hover {
+	color: #cdcdcd;
+	text-decoration: none;
 }	

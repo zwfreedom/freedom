@@ -10,7 +10,7 @@
     <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrap" id="m-top">
         <!--第一个div-->
         <div class="container" style="position: fixed;top: 0;z-index: 1;text-align: center;color: #ccc;width: 100%">
             <div class="row" style="width: 60%; margin: 0 auto;">
@@ -18,37 +18,37 @@
                     <div class="container">
                         <div class="row" style="text-align: left;">
                             <div class="col-md-1">
-                                <h3>公司简介</h3>
-                                <p>gongsijianjie</p>
+                                <a href="#m-top"><h3>公司简介</h3>
+                                <p>gongsijianjie</p></a>
                             </div>
                             <div class="col-md-1 col-md-offset-1">
-                                <h3>公司简介</h3>
-                                <p>gongsijianjie</p>
+                                <a href="#main-two"><h3>公司简介</h3>
+                                <p>gongsijianjie</p></a>
                             </div>
-                            <div class="col-md-1 col-md-offset-1">
-                                <h3>公司简介</h3>
-                                <p>gongsijianjie</p>
+                            <div class="col-md-1 col-md-offset-1" style="margin-right: 8%;">
+                                <a href="#gosi"><h3>公司简介</h3>
+                                <p>gongsijianjie</p></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2" style="text-align: right;">
-                    <img src="img/26.jpg" style="max-width: 3%;height: auto;">
+                <div class="col-md-2" style="text-align: center;">
+                    <img src="img/26.jpg" style="max-width: 2%;height: auto;">
                 </div>
                 <div class="col-md-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-1">
-                                <h3>公司简介</h3>
-                                <p>gongsijianjie</p>
+                                <a href="#main-three"><h3>公司简介</h3>
+                                <p>gongsijianjie</p></a>
                             </div>
                             <div class="col-md-1 col-md-offset-1">
-                                <h3>公司简介</h3>
-                                <p>gongsijianjie</p>
+                                <a href="#m-bottom"><h3>公司简介</h3>
+                                <p>gongsijianjie</p></a>
                             </div>
                             <div class="col-md-1 col-md-offset-1">
-                                <h3>公司简介</h3>
-                                <p>gongsijianjie</p>
+                                <a href="#gosi"><h3>公司简介</h3>
+                                <p>gongsijianjie</p></a>
                             </div>
                         </div>
                     </div>
@@ -93,10 +93,10 @@
         
         <!--第二个div-->
 
-        <div class="container main" style="width: 60%;text-align: center;margin: 10% auto;">
+        <div class="container main" id="main-two" style="width: 60%;text-align: center;margin: 5% auto;">
 <!--             <img src="img/04.jpg" alt="Second slide"> -->
              <div class="row content">
-                 <div class="col-md-4">
+                 <div class="col-md-4" style="margin-bottom: 10%;">
                      <img src="img/17.jpg" class="img-circle">
                      <h3>公司简介</h3>
                      <p>gongsijianjie</p>
@@ -113,17 +113,22 @@
                  </div>
              </div>
              <div class="row content">
-                 <div class="col-md-4">
+                 <div class="col-md-3">
                      <img src="img/14.jpg" class="img-circle">
                      <h3>公司简介</h3>
                      <p>gongsijianjie</p>
                  </div>
-                 <div class="col-md-4">
+                 <div class="col-md-3">
                      <img src="img/15.jpg" class="img-circle">
                      <h3>公司简介</h3>
                      <p>gongsijianjie</p>
                  </div>
-                 <div class="col-md-4">
+                 <div class="col-md-3">
+                     <img src="img/16.jpg" class="img-circle">
+                     <h3>公司简介</h3>
+                     <p>gongsijianjie</p>
+                 </div>
+                 <div class="col-md-3">
                      <img src="img/16.jpg" class="img-circle">
                      <h3>公司简介</h3>
                      <p>gongsijianjie</p>
@@ -132,10 +137,10 @@
         </div>
 
         <!--第三个div-->
-        <div class="main" style="background:url(img/05.jpg) no-repeat;width: 100%;height: 100%;position: relative;background-size: cover;opacity: .2;padding-top: 10%;padding-bottom: 10%;">
+        <div class="main" id="gosi" style="background:url(img/05.jpg) no-repeat;width: 100%;position: relative;background-size: cover;padding-top: 5%;padding-bottom: 5%;">
  <!--            <img src="img/05.jpg" style="height: 100%;opacity: .2;z-index: -1;"> -->
-              <div class="container" style="height: 100%;width: 60%;margin: 0 auto;background:#fff;padding: 20px;">
-                <div class="row content">
+              <div class="container" style="height: 100%;width: 60%;margin: 0 auto;background:rgba(255,255,255,0.3);padding: 20px;text-align: center;box-shadow: 1px 1px 1px 1px #cdcdcd;">
+                <div class="row content" style="margin-bottom: 10%;">
                     <div class="col-md-4">
                         <img src="img/17.jpg" class="img-circle">
                         <h3>公司简介</h3>
@@ -173,14 +178,180 @@
         </div>
 
         <!--第四个div-->
-        <div class="main">
-            <img src="img/06.jpg" alt="Second slide">
+        <div class="main container" id="main-three" style="background: #fff;height: 100%;">
+            <div class="row" style="margin: 5% auto;text-align: center;">
+                <div class="col-md-8 col-md-offset-4">
+                    <h2>————&nbsp;&nbsp;公司简介&nbsp;&nbsp;————</h2>
+                    <h3>NEWS CENTER</h3>
+                </div>
+            </div>
+            <div class="row" style="margin: 5% auto;">
+                <div class="col-md-4 col-md-offset-2">
+                    <ul id="myTab" class="nav nav-pills nav-justified">
+                        <li class="active">
+                           <a href="#home" data-toggle="tab">W3Cschool Home</a>
+                        </li>
+                        <li><a href="#ios" data-toggle="tab">iOS</a></li>
+                        <li class="dropdown">
+                           <a href="#" id="myTabDrop1" class="dropdown-toggle" 
+                          data-toggle="dropdown">Java 
+                              <b class="caret"></b>
+                           </a>
+                           <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+                              <li><a href="#jmeter" tabindex="-1" data-toggle="tab">jmeter</a>
+                              </li>
+                              <li><a href="#ejb" tabindex="-1" data-toggle="tab">ejb</a></li>
+                           </ul>
+                        </li>
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane fade in active" id="home">
+                           <p>W3CschooolW3Cschool教程是一个提供最新的web技术站点，本站免费提供了建站相关的技术文档，帮助广大web技术爱好者快速入门并建立自己的网站。菜鸟先飞早入行——从W3Cschool开始。</p>
+                        </div>
+                        <div class="tab-pane fade" id="ios">
+                              <p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
+                        </div>
+                        <div class="tab-pane fade" id="jmeter">
+                           <p>jMeter 是一款开源的测试软件。它是 100% 纯 Java 应用程序，用于负载和性能测试。</p>
+                        </div>
+                        <div class="tab-pane fade" id="ejb">
+                           <p>Enterprise Java Beans（EJB）是一个创建高度可扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!--轮播图-->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+                    <!-- 轮播（Carousel）指标 -->
+                    <ol class="carousel-indicators">
+                       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                       <li data-target="#myCarousel" data-slide-to="1"></li>
+                       <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>   
+                    <!-- 轮播（Carousel）项目 -->
+                    <div class="carousel-inner">
+                       <div class="item active">
+                          <img src="img/01.jpg" alt="First slide">
+                       </div>
+                       <div class="item">
+                          <img src="img/02.jpg" alt="Second slide">
+                       </div>
+                       <div class="item">
+                          <img src="img/03.jpg" alt="Third slide">
+                       </div>
+                    </div>
+                    <!-- 轮播（Carousel）导航 -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                       </a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                       </a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--第五个div-->
-        <div class="main">
-            <img src="img/07.jpg">
+        <div class="main" id="m-bottom" style="background: #3c3c3c;color: #fff;">
+<!--             <img src="img/07.jpg"> -->
+        <footer>
+            <div class="container">
+                <div class="row" style="margin: 5% auto;text-align: center;">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2>————&nbsp;&nbsp;联系我们&nbsp;&nbsp;————</h2>
+                        <h3>CONTECT US</h3>
+                    </div>
+                </div>
+                
+                <!--联系我们-->
+                <div class="row">
+                 </div>
+                    <div class="col-md-4">
+                    <p>
+                    <iframe width="504" height="753" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/RTCrP"></iframe></p></div>
+                 <div>
+
+                 <div class="col-md-6 col-md-offset-2">
+                  <div class="container" style="margin-bottom: 5%;">
+                    <form action="" role="form" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="" class="col-md-2 control-label">姓名</label>
+                            <div class="col-md-4">
+                                <input id="truename" type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="col-md-2 control-label">称呼</label>
+                            <div class="col-md-4">
+                                <div class="radio">
+                                   <label class="checkbox-inline">
+                                       <input type="radio" name="optionsRadiosinline" id="optionsRadios1" value="option1" checked>先生
+                                   </label>
+                                   <label class="checkbox-inline">
+                                       <input type="radio" name="optionsRadiosinline" id="optionsRadios2" value="option2">女士
+                                   </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                        <label for="job" class="col-md-2 control-label">你的职位</label>
+                               <div class="col-md-4">
+                                   <select name="" id="job" class="form-control">
+                                       <option value="">开发者</option>
+                                       <option value="">运营</option>
+                                       <option value="">管理人员</option>
+                                   </select>
+                               </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="col-md-2 control-label">你最喜欢”公众号管家“的哪个功能</label>
+                            <div class="col-md-4">   
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" checked>文章高级排版
+                                    </label>
+                                    <label>
+                                     <input type="checkbox">多公众号切换
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">素材集中管理
+                                    </label>
+                                    <label>
+                                        <input type="checkbox">其他
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="" class="col-md-2 control-label">更多建议</label>
+                                <div class="col-md-4"> 
+                                    <textarea rows="8" cols="" class="form-control"></textarea>
+                                </div>
+                        </div>
+                        <p class="col-md-offset-2">请不要超过500个字</p>
+                        <div class="col-md-offset-2">
+                            <button class="btn btn-primary">提交</button>
+                        </div>
+                    </form>
+                  </div> 
+                 </div>
+                </div>
+
+
+
+            </div>
+        </footer>
         </div>
     </div>
+    <script type="text/javascript">
+    $("a").click(function () {
+
+    $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top -20+ "px"}, 1000);
+
+});
+    </script>
 </body>
 </html>
