@@ -1,0 +1,51 @@
+* {
+	margin:0;
+	padding: 0;
+}
+body {
+	background-color: #0084ff;
+	background-image: url(https://static.zhihu.com/heifetz/sign_bg.db29b0fbd2f78dd8c1b7.png);
+}
+
+.content{
+	width: 432px;
+	margin: 0 auto;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.content-one {
+	background-color: #fff;
+	box-shadow: 2px 2px 2px gray;
+}
+.content img{
+	padding-top: 16px;
+	
+}
+.bodyer {
+	width: 432px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.bodyer form {
+	width: 400px;
+	margin: 0 auto;
+}
+.bodyer-main {
+	width: 400px;
+	overflow: hidden;
+	padding-bottom: 0px;
+	/*margin-bottom: 1px solid gray;*/
+}
+.bodter-one {
+	overflow: hidden;
+}
+.bodyer-two {
+	overflow: hidden;
+}
+.bodyer-main a {
+    text-decoration: none;
+}
